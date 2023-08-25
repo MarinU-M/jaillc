@@ -1,0 +1,9 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+
+.header {
+  background-image: url(../images/header-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
