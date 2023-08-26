@@ -1,0 +1,65 @@
+.header {
+  background-image: url(../images/header-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.header__company-name {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: bolder;
+  font-size: 4rem;
+  background: transparent;
+}
+
+.header__subtitle {
+  margin: 1rem 0 0 auto;
+  font-family: "Montserrat";
+  font-style: light;
+  font-size: 2rem;
+}
+
+.header__contacts {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  margin: auto auto 1rem 1rem;
+}
+
+.header__contact {
+  margin-top: 1rem;
+  font-family: "PaytoneOne";
+  font-style: normal;
+}
+
+.header__contact_info_phone {
+  text-decoration: none;
+  font-size: 40px;
+  color: #080502;
+}
+
+.header__contact-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 16px 0 0;
+}
+
+.header__contact_info_email {
+  text-decoration: none;
+  font-size: 32px;
+  color: #080502;
+}
