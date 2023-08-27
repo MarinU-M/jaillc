@@ -1,28 +1,9 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/about.css");
 @import url("../blocks/service.css");
 @import url("../blocks/works.css");
 @import url("../blocks/review.css");
-
-.page {
-  color: #080502;
-}
-
-.page__content {
-  margin: 100px;
-}
-
-.footer {
-  background-color: #f8eadd;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-}
-
-.footer__copyright {
-  font-family: "Montserrat";
-  font-style: normal;
-  margin: auto;
-}
+@import url("../blocks/footer.css");
