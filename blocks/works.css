@@ -1,0 +1,23 @@
+.works {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.works__margin {
+  margin-bottom: 100px;
+}
+
+.works__title {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.works__instagram {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
