@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   height: 500px;
+  position: relative;
 }
 
 .header__title {
@@ -38,7 +39,10 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 0;
-  margin: auto auto 1rem 1rem;
+  margin: 0;
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
 }
 
 .header__contact {
@@ -51,6 +55,7 @@
   text-decoration: none;
   font-size: 40px;
   color: #080502;
+  justify-content: center;
 }
 
 .header__contact-icon {
