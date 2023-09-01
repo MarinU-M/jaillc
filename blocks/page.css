@@ -1,5 +1,6 @@
 .page {
   color: #080502;
+  max-width: max-content;
 }
 
 .page__content {

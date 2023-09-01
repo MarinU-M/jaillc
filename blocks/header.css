@@ -39,10 +39,7 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 0;
-  margin: 0;
-  position: absolute;
-  left: 16px;
-  bottom: 16px;
+  margin: 0 0 1rem 1rem;
 }
 
 .header__contact {
@@ -58,11 +55,13 @@
 .header__contact_info_phone {
   font-size: 40px;
   height: fit-content;
+  margin: 0;
 }
 
 .header__contact_info_email {
   font-size: 32px;
   height: fit-content;
+  margin: 0;
 }
 
 .header__contact-icon {
