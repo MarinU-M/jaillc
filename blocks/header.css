@@ -5,7 +5,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 60vh;
   position: relative;
 }
 
@@ -21,6 +21,7 @@
   margin: 0;
   font-family: "Montserrat";
   font-style: bolder;
+  font-weight: 900;
   font-size: 64px;
   background: transparent;
   text-align: center;
@@ -30,6 +31,7 @@
   margin: 1rem 0 0 auto;
   font-family: "Montserrat";
   font-style: light;
+  font-weight: 300;
   font-size: 32px;
 }
 
@@ -39,13 +41,15 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 0;
+  gap: 16px;
   margin: 0 0 1rem 1rem;
 }
 
 .header__contact {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   font-family: "PaytoneOne";
   font-style: normal;
+  font-weight: 400;
   text-decoration: none;
   color: #080502;
   display: flex;

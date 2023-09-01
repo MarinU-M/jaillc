@@ -26,6 +26,7 @@
 .service__title {
   font-family: "Montserrat";
   font-style: bold;
+  font-weight: 700;
   font-size: 32px;
   margin: 0;
 }
@@ -33,6 +34,7 @@
 .service__text {
   font-family: "Montserrat";
   font-style: normal;
+  font-weight: 400;
   font-size: 20px;
   display: flex;
   flex-direction: column;
