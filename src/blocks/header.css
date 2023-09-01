@@ -49,25 +49,26 @@
   margin-top: 1rem;
   font-family: "PaytoneOne";
   font-style: normal;
+  text-decoration: none;
+  color: #080502;
+  display: flex;
+  align-items: center;
 }
 
 .header__contact_info_phone {
-  text-decoration: none;
   font-size: 40px;
-  color: #080502;
-  justify-content: center;
+  height: fit-content;
+}
+
+.header__contact_info_email {
+  font-size: 32px;
+  height: fit-content;
 }
 
 .header__contact-icon {
   width: 70px;
   height: 70px;
   margin: 0 16px 0 0;
-}
-
-.header__contact_info_email {
-  text-decoration: none;
-  font-size: 32px;
-  color: #080502;
 }
 
 @media screen and (max-width: 820px) and (min-width: 622px) {
