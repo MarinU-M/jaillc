@@ -5,7 +5,7 @@
 - Intro
 - Links
 - Images
-- Technologies (06/18 updated)
+- Technologies
 
 **Intro**
 
