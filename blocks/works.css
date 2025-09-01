@@ -5,10 +5,6 @@
   flex-direction: column;
 }
 
-.works__margin {
-  margin-bottom: 100px;
-}
-
 .works__title {
   font-family: "Montserrat";
   font-style: bold;

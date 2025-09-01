@@ -3,5 +3,10 @@
 }
 
 .page__content {
-  margin: 10%;
+  margin: 5% 10%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 6rem;
 }
