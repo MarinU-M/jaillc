@@ -1,6 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
 @import url("../blocks/page.css");
+@import url("../blocks/nav.css");
 @import url("../blocks/header.css");
 @import url("../blocks/cta.css");
 @import url("../blocks/about.css");
@@ -8,3 +9,21 @@
 @import url("../blocks/works.css");
 @import url("../blocks/review.css");
 @import url("../blocks/footer.css");
+
+:root {
+  --color-primary: #1a1a1a;
+  --color-gold: #C9A84C;         
+  --color-gold-hover: #b8943f;
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-light: #555555;
+  --color-border: #e0e0e0;
+}
+
+/* offset anchor scroll position for fixed nav */
+#hero,
+#about,
+#services,
+#reviews {
+  scroll-margin-top: 56px; /* same as nav height */
+}

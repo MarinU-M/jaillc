@@ -22,62 +22,66 @@
   </head>
 
   <body>
+    <nav class="nav">
+      <div class="nav__inner">
+        <a class="nav__logo" href="#hero">J.A.I LLC</a>
+        <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#hero">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#reviews">Reviews</a></li>
+          <li><a class="nav__link nav__link--cta" href="mailto:jaillctransportation@gmail.com">Get a Quote</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="page">
       <div class="cta">
-        <h2 class="cta__title">Ready to Move? Get Your Free Quote Today!</h2>
-        <div class="cta__buttons">
-          <a href="tel:+9095865176" class="cta__button cta__button--primary">
-            Call Now
-          </a>
-          or
-          <a
-            href="mailto:jaillctransportation@gmail.com"
-            class="cta__button cta__button--secondary"
-          >
-            Email
-          </a>
-          for Quote
-        </div>
+        <a href="tel:+9095865176" class="cta__button cta__button--primary">
+          Call Now
+        </a>
+        <a
+          href="mailto:jaillctransportation@gmail.com"
+          class="cta__button cta__button--secondary"
+        >
+          Email
+        </a>
       </div>
-      <header class="header">
+      <header class="header" id="hero">
         <div class="header__title">
           <img
             class="header_logo"
             src="./images/JAITransportGold.png"
             alt="JAI LLC Transport company logo"
           />
-          <!-- <h1 class="header__company-name">J.A.I LLC Transport</h1> -->
-          <!-- <p class="header__subtitle">Where The Family Matters Most</p> -->
+          <p class="header__tagline">
+            Family-owned RV, vehicle &amp; apartment transport — nationwide from California
+          </p>
+          <a href="mailto:jaillctransportation@gmail.com" class="header__cta-button">
+            Get a Free Quote
+          </a>
         </div>
         <ul class="header__contacts">
           <li class="header__contact">
-            <a
-              class="header__contact header__contact_info_phone"
-              href="tel:+(909)586-5176"
-            >
-              <img
-                class="header__contact-icon"
-                src="./images/phone-black-circle-20710.svg"
-                alt="Phone icon"
-              />(909)586-5176</a
-            >
+            <a class="header__contact header__contact_info_phone" href="tel:+9095865176">
+              <img class="header__contact-icon" src="./images/phone-black-circle-20710.svg" alt="Phone icon" />
+              (909)586-5176
+            </a>
           </li>
           <li class="header__contact">
-            <a
-              class="header__contact header__contact_info_email"
-              href="mailto:jaillctransportation@gmail.com"
-            >
-              <img
-                class="header__contact-icon"
-                src="./images/black-mail-inbox-envelope-20711.svg"
-                alt="Email icon"
-              />jaillctransportation@gmail.com</a
-            >
+            <a class="header__contact header__contact_info_email" href="mailto:jaillctransportation@gmail.com">
+              <img class="header__contact-icon" src="./images/black-mail-inbox-envelope-20711.svg" alt="Email icon" />
+              jaillctransportation@gmail.com
+            </a>
           </li>
         </ul>
       </header>
       <main class="page__content">
-        <section class="about">
+        <section class="about" id="about">
           <div class="about__detail">
             <h2 class="about__title">Welcome to J.A.I LLC Transport</h2>
             <p class="about__text">
@@ -104,7 +108,7 @@
             alt="Photo of the company founder's family on their service vehicle"
           />
         </section>
-        <section class="service-cards">
+        <section class="service-cards" id="services">
           <h3 class="service__title">Our Services</h3>
           <div class="services__grid">
             <div class="service-card">
@@ -460,7 +464,7 @@
             <script async src="//www.instagram.com/embed.js"></script>
           </div>
         </section>
-        <section class="review">
+        <section class="review" id="reviews">
           <h3 class="review__title">Our Customer reviews</h3>
           <div class="review__google">
             <div class="sk-ww-google-reviews" data-embed-id="180019"></div>
@@ -473,8 +477,9 @@
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">© 2025 JAI LLC Transport</p>
+        <p class="footer__copyright">© 2026 JAI LLC Transport</p>
       </footer>
     </div>
+    <script src="./pages/index.js"></script>
   </body>
 </html>
