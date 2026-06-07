@@ -1,12 +1,12 @@
 .page {
-  color: #080502;
+  color: var(--color-text);
 }
 
 .page__content {
-  margin: 5% 10%;
-  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
-  width: auto;
   gap: 6rem;
 }

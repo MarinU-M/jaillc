@@ -55,7 +55,7 @@
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
-  color: #080502;
+  color: var(--color-text);
   display: flex;
   align-items: center;
 }
