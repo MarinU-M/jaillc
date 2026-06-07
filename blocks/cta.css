@@ -1,32 +1,107 @@
+/* ================================
+   CTA – floating quote button
+   ================================ */
+
 .cta {
   position: fixed;
+  top: 0.75rem;
+  right: 1rem;
+  z-index: 9999;
+
   display: flex;
   flex-direction: column;
-  top: 0.5rem;
-  /* bottom: 0; */
-  right: 1rem;
-  background-color: #ff9634;
-  border-radius: 6px;
-  padding: 0.8rem 0.8rem;
+  align-items: flex-start;
   gap: 0.5rem;
-  height: fit-content;
+
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
   width: fit-content;
-  z-index: 9999;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
 
 .cta__title {
   margin: 0;
-  font-family: "Montserrat";
-  font-style: bold;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 0.85rem;
+  color: var(--color-gold);
+  letter-spacing: 0.02em;
 }
 
 .cta__buttons {
-  margin: 0;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  color: #aaaaaa;
+}
+
+.cta__button {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  min-height: 44px;
+  line-height: 44px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cta__button--primary {
+  background-color: var(--color-gold);
+  color: var(--color-primary);
+}
+
+.cta__button--primary:hover,
+.cta__button--primary:focus {
+  background-color: var(--color-gold-hover);
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+.cta__button--secondary {
+  background-color: transparent;
+  color: var(--color-gold);
+  border: 1.5px solid var(--color-gold);
+}
+
+.cta__button--secondary:hover,
+.cta__button--secondary:focus {
+  background-color: var(--color-gold);
+  color: var(--color-primary);
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* ================================
+   mobile responsive adjustments
+   ================================ */
+@media (max-width: 480px) {
+  .cta {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+  }
+
+  .cta__title {
+    font-size: 0.75rem;
+    flex: 1;
+  }
+
+  .cta__buttons {
+    flex-shrink: 0;
+  }
 }

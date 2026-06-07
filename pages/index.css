@@ -8,3 +8,13 @@
 @import url("../blocks/works.css");
 @import url("../blocks/review.css");
 @import url("../blocks/footer.css");
+
+:root {
+  --color-primary: #1a1a1a;
+  --color-gold: #C9A84C;         
+  --color-gold-hover: #b8943f;
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-light: #555555;
+  --color-border: #e0e0e0;
+}
