@@ -12,7 +12,7 @@
   overflow: hidden; /* add */
   box-sizing: border-box;
 
-  background-image: url(../images/about-photo.png);
+  background-image: url(../images/about-photo.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
