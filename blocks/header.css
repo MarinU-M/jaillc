@@ -39,6 +39,11 @@
   gap: 1rem;
 }
 
+.header__heading {
+  margin: 0;
+  display: flex;
+}
+
 .header_logo {
   height: 220px;
   width: auto;
