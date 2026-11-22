@@ -66,8 +66,9 @@
           <li><a class="nav__link" href="#hero">Home</a></li>
           <li><a class="nav__link" href="#about">About</a></li>
           <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#pricing">Pricing</a></li>
           <li><a class="nav__link" href="#reviews">Reviews</a></li>
-          <li><a class="nav__link nav__link--cta" href="mailto:jaillctransportation@gmail.com">Get a Quote</a></li>
+          <li><a class="nav__link nav__link--cta" href="mailto:jaillctransportation@gmail.com?subject=Quote%20Request&body=Hi%20J.A.I%20LLC%2C%0A%0AI%27d%20like%20a%20quote.%0A%0AWhat%20needs%20to%20be%20moved%20(RV%20%2F%20vehicle%20%2F%20apartment)%3A%0APick-up%20location%3A%0ADrop-off%20location%3A%0APreferred%20date%3A%0AName%20and%20phone%3A%0A">Get a Quote</a></li>
         </ul>
       </div>
     </nav>
@@ -97,7 +98,15 @@
           <p class="header__tagline">
             Family-owned RV, vehicle &amp; apartment transport — nationwide from California
           </p>
-          <a href="mailto:jaillctransportation@gmail.com" class="header__cta-button">
+          <ul class="header__badges">
+            <li class="header__badge">Family-owned</li>
+            <li class="header__badge">Fully insured</li>
+            <li class="header__badge">Nationwide</li>
+          </ul>
+          <a
+            href="mailto:jaillctransportation@gmail.com?subject=Quote%20Request&body=Hi%20J.A.I%20LLC%2C%0A%0AI%27d%20like%20a%20quote.%0A%0AWhat%20needs%20to%20be%20moved%20(RV%20%2F%20vehicle%20%2F%20apartment)%3A%0APick-up%20location%3A%0ADrop-off%20location%3A%0APreferred%20date%3A%0AName%20and%20phone%3A%0A"
+            class="header__cta-button"
+          >
             Get a Free Quote
           </a>
         </div>
@@ -119,8 +128,8 @@
       <main class="page__content" id="main">
         <section class="about" id="about">
           <div class="about__detail">
-            <h2 class="about__title">Welcome to J.A.I LLC Transport</h2>
-            <p class="about__text">
+            <h2 class="section-title about__title">Welcome to J.A.I LLC Transport</h2>
+            <p class="section-text about__text">
               <span
                 >At J.A.I LLC, we're not just a transportation company – we're
                 your extended family when it comes to moving what matters most
@@ -148,36 +157,42 @@
           />
         </section>
         <section class="service-cards" id="services">
-          <h2 class="service__title">Our Services</h2>
+          <h2 class="section-title">Our Services</h2>
           <div class="services__grid">
             <div class="service-card">
-              <!-- <img
-                src="./images/rv-icon.svg"
-                alt="RV Transport"
+              <img
                 class="service-card__icon"
-              /> -->
+                src="./images/icon-rv.svg"
+                alt=""
+                width="48"
+                height="48"
+              />
               <h3 class="service-card__title">RV Transport</h3>
               <p class="service-card__text">
                 Safe and secure RV transportation nationwide
               </p>
             </div>
             <div class="service-card">
-              <!-- <img
-                src="./images/vehicle-icon.svg"
-                alt="Vehicle Transport"
+              <img
                 class="service-card__icon"
-              /> -->
+                src="./images/icon-vehicle.svg"
+                alt=""
+                width="48"
+                height="48"
+              />
               <h3 class="service-card__title">Vehicle Transport</h3>
               <p class="service-card__text">
                 Professional car and truck shipping services
               </p>
             </div>
             <div class="service-card">
-              <!-- <img
-                src="./images/moving-icon.svg"
-                alt="Apartment Moving"
+              <img
                 class="service-card__icon"
-              /> -->
+                src="./images/icon-moving.svg"
+                alt=""
+                width="48"
+                height="48"
+              />
               <h3 class="service-card__title">Apartment Moving</h3>
               <p class="service-card__text">
                 Complete household moving solutions
@@ -197,7 +212,7 @@
           <div class="service__detail">
             <div>
               <h3 class="service__title">Tailored Quotes, Total Confidence</h3>
-              <p class="service__text">
+              <p class="section-text service__text">
                 Recognizing each move's uniqueness, our consultative approach
                 ensures personalized quotes aligned with your needs. We’re fully
                 insured and offer comprehensive coverage, bringing you peace of
@@ -208,19 +223,43 @@
             </div>
             <div>
               <h3 class="service__title">Nationwide Convenience from CA</h3>
-              <p class="service__text">
+              <p class="section-text service__text">
                 Based in California, we're your nationwide solution. Our
                 services cover the entire USA, ensuring accessibility and
-                reliability, no matter the distance. With rates starting at just
-                $100 for 50 miles or adjacent towns, and a budget-friendly $2
-                per mile for longer journeys, our pricing remains fair while
-                delivering top-notch service.
+                reliability, no matter the distance. Our pricing remains fair
+                while delivering top-notch service.
               </p>
             </div>
           </div>
         </section>
+        <section class="pricing" id="pricing">
+          <h2 class="section-title pricing__title">Simple, Fair Pricing</h2>
+          <div class="pricing__grid">
+            <div class="pricing__card">
+              <p class="pricing__label">Local</p>
+              <p class="pricing__price">$100</p>
+              <p class="pricing__detail">
+                Up to 50 miles or adjacent towns
+              </p>
+            </div>
+            <div class="pricing__card">
+              <p class="pricing__label">Long distance</p>
+              <p class="pricing__price">$2<span class="pricing__unit"> / mile</span></p>
+              <p class="pricing__detail">
+                Anywhere in the USA, from California
+              </p>
+            </div>
+          </div>
+          <p class="pricing__note">
+            Every move is different. Fully insured, with a personalized quote
+            for your RV, vehicle, or apartment.
+          </p>
+          <a class="pricing__button" href="mailto:jaillctransportation@gmail.com?subject=Quote%20Request&body=Hi%20J.A.I%20LLC%2C%0A%0AI%27d%20like%20a%20quote.%0A%0AWhat%20needs%20to%20be%20moved%20(RV%20%2F%20vehicle%20%2F%20apartment)%3A%0APick-up%20location%3A%0ADrop-off%20location%3A%0APreferred%20date%3A%0AName%20and%20phone%3A%0A">
+            Request a Quote
+          </a>
+        </section>
         <section class="works">
-          <h2 class="works__title">Our latest works</h2>
+          <h2 class="section-title works__title">Our latest works</h2>
           <div
             class="works__instagram"
             data-lazy-script="https://www.instagram.com/embed.js"
@@ -507,9 +546,17 @@
               </div>
             </blockquote>
           </div>
+          <a
+            class="works__link"
+            href="https://www.instagram.com/jai_llctransport/"
+            target="_blank"
+            rel="noopener"
+          >
+            Follow @jai_llctransport on Instagram
+          </a>
         </section>
         <section class="review" id="reviews">
-          <h2 class="review__title">Our Customer reviews</h2>
+          <h2 class="section-title review__title">Our Customer reviews</h2>
           <div
             class="review__google"
             data-lazy-script="https://widgets.sociablekit.com/google-reviews/widget.js"
@@ -519,6 +566,11 @@
         </section>
       </main>
       <footer class="footer">
+        <ul class="footer__links">
+          <li><a class="footer__link" href="tel:+19095865176">(909)586-5176</a></li>
+          <li><a class="footer__link" href="mailto:jaillctransportation@gmail.com">jaillctransportation@gmail.com</a></li>
+          <li><a class="footer__link" href="https://www.instagram.com/jai_llctransport/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
         <p class="footer__copyright">© 2026 JAI LLC Transport</p>
       </footer>
     </div>

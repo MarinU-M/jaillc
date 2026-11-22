@@ -5,26 +5,8 @@
   flex-direction: column;
 }
 
-.review__title {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 32px;
-  margin: 0;
-}
-
 .review__google {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
-
-@media screen and (max-width: 820px) and (min-width: 622px) {
-  .review__title {
-    font-size: 27px;
-  }
-}
-@media screen and (max-width: 621px) {
-  .review__title {
-    font-size: 16px;
-  }
 }
