@@ -1,0 +1,32 @@
+/* shared section heading / body text */
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.section-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+@media screen and (max-width: 820px) {
+  .section-title {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 621px) {
+  .section-title {
+    font-size: 22px;
+  }
+  .section-text {
+    font-size: 15px;
+  }
+}
